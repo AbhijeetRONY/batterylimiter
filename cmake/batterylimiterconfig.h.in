@@ -1,0 +1,10 @@
+#ifndef __batterylimiter__
+#define __batterylimiter__
+#include <string_view>
+namespace Project {
+    constexpr std::string_view VERSION = "@batterylimiter_VERSION_MAJOR@.@batterylimiter_VERSION_MINOR@.@batterylimiter_VERSION_PATCH@";
+    constexpr std::string_view COMPANY = "@COMPANY@";
+    constexpr std::string_view COPYRIGHT = "@COPYRIGHT@";
+    constexpr std::string_view NAME = "@PROJECT_NAME@";
+}
+#endif //batterylimiter_H
